@@ -1,26 +1,21 @@
-export type ProjectType = 'subnet' | 'packet' | 'etl' | 'serial' | 'helpdesk' | 'inventory' | 'schedule' | 'cyber';
-
-export type ProjectConfig = {
-  slug: string;
-  title: string;
-  type: ProjectType;
-  deploy: boolean;
-  description: string;
-  tagline: string;
-  accent: string;
-  secondary: string;
-  topics: string[];
-};
-
+export type ProjectType = 'subnet' | 'packet' | 'etl' | 'serial' | 'helpdesk' | 'inventory' | 'schedule' | 'cyber';
+
+export type ProjectConfig = {
+  slug: string;
+  title: string;
+  type: ProjectType;
+  deploy: boolean;
+  description: string;
+  tagline: string;
+  accent: string;
+  secondary: string;
+  topics: string[];
+};
+
 export const project: ProjectConfig = {
   "slug": "eetepa-maker-serial-dashboard",
-  "title": "EETEPA Maker Serial Dashboard",
-  "type": "serial",
-  "deploy": false,
-  "description": "Web Serial dashboard for Arduino and ESP32 learning labs, with synthetic demo mode and no backend.",
-  "tagline": "Web Serial dashboard for Arduino and ESP32 labs, with synthetic demo mode.",
-  "accent": "#5b628f",
-  "secondary": "#c47a36",
+  "title": "EETEPA Dashboard Maker Serial",
+  "description": "Dashboard Web Serial para Arduino/ESP32 com modo sintetico e foco em laboratorio maker.",
   "topics": [
     "eetepa",
     "maker",
@@ -28,6 +23,16 @@ export const project: ProjectConfig = {
     "arduino",
     "esp32",
     "robotics",
-    "typescript"
-  ]
-};
+    "typescript",
+    "robotica",
+    "github-pages",
+    "portugues-brasil",
+    "educacao-tecnologica",
+    "sala-de-aula"
+  ],
+  "deploy": true,
+  "tagline": "Painel maker para sensores seriais reais ou simulados, sem backend.",
+  "type": "serial",
+  "accent": "#5b628f",
+  "secondary": "#c47a36"
+};

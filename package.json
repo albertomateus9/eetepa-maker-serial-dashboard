@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.1.0",
   "type": "module",
-  "description": "Web Serial dashboard for Arduino and ESP32 learning labs, with synthetic demo mode and no backend.",
+  "description": "Dashboard Web Serial para Arduino/ESP32 com modo sintetico e foco em laboratorio maker.",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
